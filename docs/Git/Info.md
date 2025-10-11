@@ -3,7 +3,7 @@
 
 Always start from the branch you want to base your work on (usually main or develop):
 
-
+       
 git switch main
 git pull origin main
 git switch -b  feature/add-login
@@ -15,6 +15,7 @@ git add .
 git commit -m "Add login page"
 
 ## (2)Push your branch to GitHub
+
 git push -u origin feature/add-login
 
 
