@@ -3,9 +3,10 @@
 
 Always start from the branch you want to base your work on (usually main or develop):
 
-git checkout main
+
+git switch main
 git pull origin main
-git checkout -b feature/add-login
+git switch -b  feature/add-login
 
 
 Do your work → commit changes:
@@ -55,7 +56,7 @@ Optionally, delete the feature branch after merge
 
 After merge, update your local base branch:
 
-git checkout main
+git switch main
 git pull origin main
 
 
